@@ -1,0 +1,356 @@
+{
+  "rfp_run_id": "RUN-20261004-051043-01bc",
+  "criteria": [
+    {
+      "criterion_id": 1,
+      "name": "Technical Capability",
+      "description": "Architecture, integrations, scalability, technical fit",
+      "weight": 30.0,
+      "max_score": 10
+    },
+    {
+      "criterion_id": 2,
+      "name": "Implementation Plan",
+      "description": "Timeline, milestones, staffing, risk plan",
+      "weight": 20.0,
+      "max_score": 10
+    },
+    {
+      "criterion_id": 3,
+      "name": "Commercial Value",
+      "description": "Pricing clarity, total cost, assumptions",
+      "weight": 20.0,
+      "max_score": 10
+    },
+    {
+      "criterion_id": 4,
+      "name": "Security & Compliance",
+      "description": "Controls, certifications, privacy, auditability",
+      "weight": 20.0,
+      "max_score": 10
+    },
+    {
+      "criterion_id": 5,
+      "name": "Support & Experience",
+      "description": "Support model, similar projects, references",
+      "weight": 10.0,
+      "max_score": 10
+    }
+  ],
+  "suppliers": [
+    {
+      "supplier_name": "Apex Systems",
+      "submission_date": "2026-09-20",
+      "experience_rating": 4.0,
+      "absolute_score": 79.0,
+      "ppi": 92.22,
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "name": "Technical Capability",
+          "weight": 30.0,
+          "score": 9.0,
+          "max_score": 10.0,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Apex proposes a strong technical solution with a modular cloud architecture, containerization, REST APIs, and managed databases. It supports scalability and future integrations.",
+          "evidence": "Apex proposes a modular cloud architecture using containerized services, REST APIs, managed databases, centralized logging, automated monitoring, and an integration layer for enterprise systems. The design supports horizontal scaling and future integrations."
+        },
+        {
+          "criterion_id": 2,
+          "name": "Implementation Plan",
+          "weight": 20.0,
+          "score": 7.0,
+          "max_score": 10.0,
+          "benchmark": 9.0,
+          "gap": -2.0,
+          "relative_pct": 77.78,
+          "justification": "The timeline is moderate at 16 weeks, with a clear breakdown of phases. Staffing is appropriate with a solution architect, engineers, QA lead, project manager, and security specialist. However, the proposal lacks a detailed risk plan.",
+          "evidence": "16 weeks: discovery 2 weeks; architecture 3 weeks; configuration and integration 6 weeks; testing 3 weeks; production transition 2 weeks. Team includes a solution architect, two engineers, QA lead, project manager, and security specialist."
+        },
+        {
+          "criterion_id": 3,
+          "name": "Commercial Value",
+          "weight": 20.0,
+          "score": 8.0,
+          "max_score": 10.0,
+          "benchmark": 9.0,
+          "gap": -1.0,
+          "relative_pct": 88.89,
+          "justification": "Pricing is transparent with a clear breakdown of implementation, support, and cloud costs. However, the proposal does not provide a detailed SLA credit schedule, which may impact commercial value.",
+          "evidence": "Implementation: $118,000. Annual support: $24,000. Cloud and third-party charges are estimated at $18,000 annually and depend on usage. Pricing is higher than several low-cost alternatives."
+        },
+        {
+          "criterion_id": 4,
+          "name": "Security & Compliance",
+          "weight": 20.0,
+          "score": 7.0,
+          "max_score": 10.0,
+          "benchmark": 7.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Apex describes a comprehensive set of security controls, including encryption, access control, MFA, logging, and incident response. However, they do not provide a copy of the ISO 27001 certification, which could be a requirement.",
+          "evidence": "Apex describes encryption in transit and at rest, role-based access control, MFA, audit logging, vulnerability scanning, incident response procedures, backups, and quarterly access reviews. It references ISO 27001-aligned controls but does not provide a certification copy in the proposal."
+        },
+        {
+          "criterion_id": 5,
+          "name": "Support & Experience",
+          "weight": 10.0,
+          "score": 8.0,
+          "max_score": 10.0,
+          "benchmark": 9.0,
+          "gap": -1.0,
+          "relative_pct": 88.89,
+          "justification": "Apex offers a robust support model with 24x7 critical incident support and named service manager. They cite relevant experience with three enterprise projects, including an integration program. However, specific references are not provided.",
+          "evidence": "24x7 critical-incident support, business-hours standard support, named service manager, quarterly service reviews. Apex cites three comparable enterprise projects, including a large integration programme."
+        }
+      ],
+      "risks": [
+        "The proposal's higher cost may require additional budget justification.",
+        "Lack of a detailed SLA credit schedule could impact commercial terms."
+      ],
+      "overall_summary": "Apex Systems presents a strong technical solution with a scalable architecture and robust security controls. Their implementation plan is well-structured but could benefit from a more detailed risk assessment. Commercial terms are transparent but may require further negotiation due to higher costs. The proposal's security measures are comprehensive, but the absence of a provided ISO 27001 certification could be a concern. Apex demonstrates relevant experience, but specific references are not included.",
+      "final_rank": 1
+    },
+    {
+      "supplier_name": "NexaWorks",
+      "submission_date": "2026-09-19",
+      "experience_rating": 4.0,
+      "absolute_score": 75.0,
+      "ppi": 87.14,
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "name": "Technical Capability",
+          "weight": 30.0,
+          "score": 7.0,
+          "max_score": 10.0,
+          "benchmark": 9.0,
+          "gap": -2.0,
+          "relative_pct": 77.78,
+          "justification": "The proposal describes a service-oriented architecture, API integration, and automated deployment, but lacks detail on advanced scalability.",
+          "evidence": "service-oriented platform with API integration, managed relational storage, monitoring, automated deployment, and configurable workflows"
+        },
+        {
+          "criterion_id": 2,
+          "name": "Implementation Plan",
+          "weight": 20.0,
+          "score": 9.0,
+          "max_score": 10.0,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "The supplier provides a clear timeline, staffing plan, and milestones, but does not explicitly mention risk management.",
+          "evidence": "12 weeks: discovery 2 weeks; design 2 weeks; configuration 4 weeks; integration 2 weeks; testing 1 week; transition 1 week. Staffing includes a programme manager, technical lead, integration engineer, two application engineers, QA engineer, and support lead."
+        },
+        {
+          "criterion_id": 3,
+          "name": "Commercial Value",
+          "weight": 20.0,
+          "score": 8.0,
+          "max_score": 10.0,
+          "benchmark": 9.0,
+          "gap": -1.0,
+          "relative_pct": 88.89,
+          "justification": "Pricing is clear, but the proposal does not provide a detailed breakdown of costs.",
+          "evidence": "Implementation: $92,000. Annual support: $18,000. Estimated cloud/third-party costs: $15,000 annually. Assumptions and exclusions are clearly stated."
+        },
+        {
+          "criterion_id": 4,
+          "name": "Security & Compliance",
+          "weight": 20.0,
+          "score": 6.0,
+          "max_score": 10.0,
+          "benchmark": 7.0,
+          "gap": -1.0,
+          "relative_pct": 85.71,
+          "justification": "The supplier describes security controls and follows ISO 27001 principles, but does not provide certification evidence.",
+          "evidence": "describes encryption, least-privilege access, MFA, audit logs, backup testing, vulnerability management, data-retention controls, and documented incident escalation"
+        },
+        {
+          "criterion_id": 5,
+          "name": "Support & Experience",
+          "weight": 10.0,
+          "score": 8.0,
+          "max_score": 10.0,
+          "benchmark": 9.0,
+          "gap": -1.0,
+          "relative_pct": 88.89,
+          "justification": "The support model is comprehensive, but the proposal does not describe the level of experience with similar projects.",
+          "evidence": "24x7 critical support, 4-hour target for high-severity incidents, named support lead, monthly service reporting, knowledge transfer, and quarterly reviews. Three relevant customer references are described."
+        }
+      ],
+      "risks": [
+        "Lack of advanced scalability details.",
+        "Missing security certification evidence."
+      ],
+      "overall_summary": "NexaWorks offers a well-rounded proposal with a strong implementation plan, clear pricing, and a robust support model. However, the proposal could be improved with more detail on scalability and security certifications.",
+      "final_rank": 2
+    },
+    {
+      "supplier_name": "Orbit Digital",
+      "submission_date": "2026-09-22",
+      "experience_rating": 5.0,
+      "absolute_score": 68.0,
+      "ppi": 79.37,
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "name": "Technical Capability",
+          "weight": 30.0,
+          "score": 5.0,
+          "max_score": 10.0,
+          "benchmark": 9.0,
+          "gap": -4.0,
+          "relative_pct": 55.56,
+          "justification": "While the proposed solution includes standard APIs and configurable workflows, the response lacks details on integration patterns, migration, and technical dependencies, which are critical for a comprehensive technical evaluation.",
+          "evidence": "The proposal states that integrations will be finalized during discovery but does not provide detailed interface patterns, migration steps, or dependency mapping."
+        },
+        {
+          "criterion_id": 2,
+          "name": "Implementation Plan",
+          "weight": 20.0,
+          "score": 7.0,
+          "max_score": 10.0,
+          "benchmark": 9.0,
+          "gap": -2.0,
+          "relative_pct": 77.78,
+          "justification": "The supplier provides a clear timeline, team structure, and milestones, but the integration plan and migration responsibilities need more clarity.",
+          "evidence": "11 weeks: discovery 2 weeks; configuration 4 weeks; integration 2 weeks; testing 2 weeks; launch 1 week. Team includes a project manager, solution consultant, developers, and QA resource."
+        },
+        {
+          "criterion_id": 3,
+          "name": "Commercial Value",
+          "weight": 20.0,
+          "score": 9.0,
+          "max_score": 10.0,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Pricing is transparent, with separate implementation and support costs, and optional customization charges. However, there is a minor lack of clarity on potential additional taxes and third-party costs.",
+          "evidence": "Pricing is transparent, with separate optional customization charges. Price assumptions include supplier implementation effort and recurring support. Taxes and unusual third-party consumption charges may be additional where applicable."
+        },
+        {
+          "criterion_id": 4,
+          "name": "Security & Compliance",
+          "weight": 20.0,
+          "score": 6.0,
+          "max_score": 10.0,
+          "benchmark": 7.0,
+          "gap": -1.0,
+          "relative_pct": 85.71,
+          "justification": "The supplier describes various security controls and monitoring, but provides limited detail on audit retention, certifications, and formal compliance testing.",
+          "evidence": "It provides a general privacy statement but limited detail on audit retention, certification status, and formal compliance testing."
+        },
+        {
+          "criterion_id": 5,
+          "name": "Support & Experience",
+          "weight": 10.0,
+          "score": 9.0,
+          "max_score": 10.0,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "justification": "Orbit Digital offers a robust support model with 24x7 critical support, named account management, and structured escalation. They provide strong references and relevant project experience.",
+          "evidence": "24x7 critical support, named account manager, service reviews, and a structured escalation process. Orbit cites four relevant projects and provides strong reference descriptions."
+        }
+      ],
+      "risks": [
+        "Integration and migration details are vague, which may lead to potential issues during implementation.",
+        "Limited information on audit retention, certifications, and compliance testing could pose risks in meeting security and compliance requirements."
+      ],
+      "overall_summary": "Orbit Digital presents a good overall proposal with a clear understanding of the requirements. Their technical response is partially complete, and the implementation plan is generally well-structured but lacks detail in critical areas. The commercial value is strong, with transparent pricing, and the support and experience criteria are well-met. However, the security and compliance section could be improved with more comprehensive details.",
+      "final_rank": 3
+    },
+    {
+      "supplier_name": "BrightPath Tech",
+      "submission_date": "2026-09-21",
+      "experience_rating": 2.0,
+      "absolute_score": 63.0,
+      "ppi": 72.54,
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "name": "Technical Capability",
+          "weight": 30.0,
+          "score": 6.0,
+          "max_score": 10.0,
+          "benchmark": 9.0,
+          "gap": -3.0,
+          "relative_pct": 66.67,
+          "justification": "The architecture is lightweight and rapid, but lacks detail on complex integration patterns and scaling.",
+          "evidence": "The architecture is designed for rapid delivery but contains limited detail on complex enterprise integration patterns and scaling thresholds."
+        },
+        {
+          "criterion_id": 2,
+          "name": "Implementation Plan",
+          "weight": 20.0,
+          "score": 8.0,
+          "max_score": 10.0,
+          "benchmark": 9.0,
+          "gap": -1.0,
+          "relative_pct": 88.89,
+          "justification": "A clear timeline and team structure are provided, but risk management is not detailed.",
+          "evidence": "4. Timeline, Team and Milestones: 8 weeks: planning 1 week; build 4 weeks; testing 2 weeks; launch 1 week. Team includes a project lead, two developers, and shared QA support."
+        },
+        {
+          "criterion_id": 3,
+          "name": "Commercial Value",
+          "weight": 20.0,
+          "score": 8.0,
+          "max_score": 10.0,
+          "benchmark": 9.0,
+          "gap": -1.0,
+          "relative_pct": 88.89,
+          "justification": "Pricing is clear, but usage-based cost scenarios are not detailed.",
+          "evidence": "Pricing assumptions are clearly listed, although usage-based cost scenarios are not detailed."
+        },
+        {
+          "criterion_id": 4,
+          "name": "Security & Compliance",
+          "weight": 20.0,
+          "score": 4.0,
+          "max_score": 10.0,
+          "benchmark": 7.0,
+          "gap": -3.0,
+          "relative_pct": 57.14,
+          "justification": "Basic security measures are mentioned, but lacks detail on privacy, audit logs, certifications, and incident response.",
+          "evidence": "BrightPath mentions HTTPS, passwords with MFA for administrators, backups, and basic vulnerability scanning. It does not provide detailed privacy controls, audit-log retention, formal certification evidence, or a mature incident response process."
+        },
+        {
+          "criterion_id": 5,
+          "name": "Support & Experience",
+          "weight": 10.0,
+          "score": 5.0,
+          "max_score": 10.0,
+          "benchmark": 9.0,
+          "gap": -4.0,
+          "relative_pct": 55.56,
+          "justification": "Support model is outlined, but lacks dedicated management and detailed references.",
+          "evidence": "Business-hours support with a target response within one business day. BrightPath describes two smaller projects with similar functionality but provides limited references and no dedicated service manager."
+        }
+      ],
+      "risks": [
+        "Fast delivery may create integration and testing risks.",
+        "Compliance and support capacity are unclear."
+      ],
+      "overall_summary": "BrightPath Tech offers a rapid, cost-effective solution, but the proposal lacks detail in several areas, particularly security, compliance, and long-term support. The implementation plan is well-structured, but the technical design and support model could benefit from further clarification and enhancement.",
+      "final_rank": 4
+    }
+  ],
+  "benchmarks": {
+    "1": 9.0,
+    "2": 9.0,
+    "3": 9.0,
+    "4": 7.0,
+    "5": 9.0
+  },
+  "tie_break_notes": [
+    "#1 Apex Systems above #2 NexaWorks: higher PPI (92.22 vs 87.14)",
+    "#2 NexaWorks above #3 Orbit Digital: higher PPI (87.14 vs 79.37)",
+    "#3 Orbit Digital above #4 BrightPath Tech: higher PPI (79.37 vs 72.54)"
+  ],
+  "warnings": [],
+  "errors": []
+}

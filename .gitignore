@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+db/rfp.db
+.env
+.streamlit/secrets.toml
+streamlit.log
+tunnel.log
+.pytest_cache/
