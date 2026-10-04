@@ -7,7 +7,7 @@ An AI-assisted Streamlit app that reads supplier RFP proposals (PDF), scores the
 **The LLM judges proposal content only. Python does all arithmetic, benchmarking, tie-breaks and ranking.**
 
 - **Live app:** https://agenticrfpevaluation-zah5tpbyp4ja8caq4mcays.streamlit.app/
-- **Demo video:** 
+- **Demo video:** https://drive.google.com/file/d/1q42lOF1XN5s_1ljU33I04oGuRQC9UfdB/view?usp=drivesdk
 
 ## Tech stack
 Streamlit, SQLite, LangGraph (orchestration), LangChain + Cohere `command-r-plus-08-2024` (evaluation), Pydantic (validation), PyMuPDF (PDF text), pytest.
