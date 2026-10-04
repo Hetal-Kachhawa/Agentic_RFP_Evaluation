@@ -61,29 +61,29 @@ On Streamlit Community Cloud, add `COHERE_API_KEY` under Settings, Secrets. Run 
 `sample_output/run_export.json` is the exported result of one completed run.
 
 ## Screenshots
-## Screenshots
 
-### 1. Criteria
+### 1. Criteria 
+
+### 2. Input and evaluation 
 <img width="1420" height="716" alt="Capture1" src="https://github.com/user-attachments/assets/415972ce-c896-4f1e-b930-331f1374ac3e" />
 
 
-### 2. Input and evaluation
+### 3. Leaderboard 
 <img width="1411" height="705" alt="Capture2" src="https://github.com/user-attachments/assets/8634c2b4-0811-4413-b7a1-0d9ca8f5e947" />
 
 
-### 3. Leaderboard
+### 4. Detailed scorecard and run details
 <img width="1369" height="674" alt="Capture3" src="https://github.com/user-attachments/assets/8c03fe04-c95e-4413-bc45-cc5e16417511" />
 
 
-### 4. Detailed scorecard and run details
+### 5. Run details
 <img width="1061" height="595" alt="Capture4" src="https://github.com/user-attachments/assets/b40847bc-1fe8-425c-8646-7d2f3723dd89" />
 
 
-### 5. Run details
-<PASTE CAPTURE4 IMAGE TAG HERE>
-
 ### 6. Validation error (duplicate supplier names)
-<PASTE ERROR_SHOT2 IMAGE TAG HERE>
+<img width="1372" height="648" alt="error shot 1" src="https://github.com/user-attachments/assets/dc24de9a-655e-4bea-90f9-1b32639321d6" />
+<img width="1389" height="619" alt="error shot2" src="https://github.com/user-attachments/assets/eb0b3c6d-f471-4670-a8a5-89de051e3311" />
+
 
 ## Assumptions and limitations
 - Submission date and experience rating (1 to 5) are entered by the user at upload time and are used only for tie-breaking.
