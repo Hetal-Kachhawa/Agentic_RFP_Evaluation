@@ -63,7 +63,8 @@ On Streamlit Community Cloud, add `COHERE_API_KEY` under Settings, Secrets. Run 
 ## Screenshots
 | | |
 |---|---|
-| Criteria | ![Criteria](screenshots/1_criteria.png) |
+| Criteria | ![Criteria]<img width="1420" height="716" alt="Capture1" src="https://github.com/user-attachments/assets/807afda7-de6b-4e1e-80a2-5f9a16c67739" />
+) |
 | Input and evaluation | ![Input](screenshots/2_input_running.png) |
 | Leaderboard | ![Leaderboard](screenshots/3_leaderboard.png) |
 | Detailed scorecard | ![Scorecard](screenshots/4_scorecard.png) |
